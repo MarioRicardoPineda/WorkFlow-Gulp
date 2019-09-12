@@ -1,0 +1,24 @@
+// configuraciones de los estilos como:
+// variables, mixins, funciones y reset del navegador
+
+// Variables
+@import './config/variables';
+// mixins
+@import './config/mixins';
+// reseteo
+@import './config/reset';
+
+// Layout donde van cada parte que conforma una web como:
+// header, main, footer, etc.
+
+@import './layout/layout';
+
+// components, es la parte donde van cada componente UI de tu web como:
+// Botones, tablas, menus, dropdown, etc.
+@import  './components/botons';
+
+
+// Hack son aquellos estilos que se agregan con tal de solucionar
+// momentaneamente un problema en el diseño, pero se esperara solucionarlo mas adelante
+@import './hack/hacks';
+
